@@ -1,12 +1,12 @@
-import { useState } from 'react'
+
 import {Button} from "ui"
-function App() {
-  const [count, setCount] = useState(0)
+const  App = () => {
+
 
   return (
-    <div className="App">
+    // <div className="bg-red-600 text-blue-800">
       <Button>test</Button>
-    </div>
+    // </div>
   )
 }
 
