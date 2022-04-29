@@ -1,4 +1,6 @@
 import * as React from "react";
-export const Button = () => {
-  return <button>Boop</button>;
+
+interface ButtonProps{children:React.ReactNode}
+export const Button = ({children}:ButtonProps) => {
+  return <button>{children}</button>;
 };
