@@ -3,8 +3,8 @@ import { Button } from "ui";
 export default function Web() {
   return (
     <div>
-      <h1>Web</h1>
-      <Button />
+test
+      <Button >test123</Button>
     </div>
   );
 }
