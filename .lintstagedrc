@@ -1,0 +1,15 @@
+{
+  "*.(js|jsx)": [
+    "prettier --write",
+    "eslint --fix"
+  ],
+  "*.(ts|tsx)": [
+    "tsc-files --noEmit",
+    "prettier --write",
+    "eslint --fix"
+  ],
+  "*.json": [
+    "prettier --write"
+  ]
+}
+

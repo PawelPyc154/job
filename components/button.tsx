@@ -5,6 +5,8 @@ interface ButtonProps {
 }
 
 function Button({ children }: ButtonProps) {
+  // const test = 'test'
+
   return (
     <button type="button" className="bg-red-600 rounded-sm">
       {children}
@@ -13,4 +15,3 @@ function Button({ children }: ButtonProps) {
 }
 
 export { Button }
-
