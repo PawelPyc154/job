@@ -12,8 +12,8 @@ const Home: NextPage = () => (
     </Head>
     <Button>tes12312t</Button>
     <Input />
+    123123123123
   </div>
 )
 
 export default Home
-
