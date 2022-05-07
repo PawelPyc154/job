@@ -26,5 +26,6 @@ module.exports = {
     'react/prop-types': 'off',
     'no-undef': 'off',
     'import/extensions': 'off',
+    'consistent-return': 'off',
   },
 }
