@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from 'react'
+import React, { createContext, ReactNode, useContext, useState } from 'react'
 
 const UserContext = createContext<User | null>(null)
 
@@ -12,10 +12,14 @@ const user1 = {
   id: 1,
   type: 'employer' as UserType,
 }
+interface UserProviderProps {
+  children: ReactNode
+}
 
-const [user] = useState<User | null>(user1)
-
-const UserProvider = () => <UserContext.Provider value={user}>userProvider</UserContext.Provider>
+const UserProvider = ({ children }: UserProviderProps) => {
+  const [user] = useState<User | null>(user1)
+  return <UserContext.Provider value={user}>{children}</UserContext.Provider>
+}
 
 const useUser = () => {
   const context = useContext(UserContext)
