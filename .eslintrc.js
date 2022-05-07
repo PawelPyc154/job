@@ -20,6 +20,11 @@ module.exports = {
     'react/function-component-definition': 'off',
     'import/no-unresolved': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'no-use-before-define': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
+    'react/require-default-props': 'off',
+    'react/prop-types': 'off',
+    'no-undef': 'off',
+    'import/extensions': 'off',
   },
 }
-

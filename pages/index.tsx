@@ -16,6 +16,9 @@ const JobOffers: NextPage = () => (
         {name}
       </Link>
     ))}
+
+    <div className="bg-green-600">tset123</div>
+    <div className="bg-green-700">tset321</div>
   </div>
 )
 

@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  /* ...tw`antialiased text-sm`, */
+  font-size: 14px;
+  background: rgb(229, 231, 235);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(229, 231, 235);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(22, 163, 74);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(21, 128, 61);
+}
+
